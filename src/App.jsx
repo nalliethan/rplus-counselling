@@ -1,9 +1,11 @@
+import Hero from "./components/Hero/Hero"
+
 function App() {
 
   return (
-    <>
-      R+ Counselling
-    </>
+    <div>
+      <Hero/>
+    </div>
   )
 }
 
