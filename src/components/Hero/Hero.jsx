@@ -3,7 +3,7 @@ import './Hero.css'
 
 const Hero = () => {
   return (
-    <div className='hero relative bg-[#fff4e9] pt-36 pb-24 px-[10%] lg:px-[15%] mx-auto flex flex-col gap-14 md:gap-24'>
+    <div className='hero relative bg-[#fff4e9] pt-36 pb-24 px-[10%] lg:px-[20%] mx-auto flex flex-col gap-14 md:gap-24'>
       <img src="src/assets/hero-bg-1.png" alt="hero-bg" className='hero-top-image'/>
       <img src="src/assets/hero-bg-2.png" alt="hero-bg" className='hero-bottom-image'/>
       
