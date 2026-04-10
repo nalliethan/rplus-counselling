@@ -1,4 +1,5 @@
 import About from "./components/About/About"
+import Booking from "./components/Booking/Booking"
 import Hero from "./components/Hero/Hero"
 import Practitioner from "./components/Practitioner/Practitioner"
 import Services from "./components/Services/Services"
@@ -13,6 +14,7 @@ function App() {
       <Services/>
       <Practitioner/>
       <Session/>
+      <Booking/>
     </div>
   )
 }
