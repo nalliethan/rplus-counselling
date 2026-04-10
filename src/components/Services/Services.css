@@ -1,24 +1,35 @@
 .service-list{
-    font-weight: 700;
     display:flex;
     align-items: start;
     gap: 6px;
     list-style: none;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: bold;
-    min-height:80px;
-
-    
+    color: #55675b;
+   
 }
 
 .service-list::before,
 .support-list::before{
-    margin-right:10px;
+    margin-right:5px;
     content: ""; 
     display: inline-block;
-    min-width: 25px;
+    min-width: 22px;
     height: 18px;
     background-image: url("src/assets/bullet.png");
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+@media (min-width: 768px){
+    .service-list{
+        display:flex;
+        align-items: start;
+        gap: 6px;
+        list-style: none;
+        font-size: 22px;
+        font-weight: bold;
+        color: #55675b;
+        min-height:80px;
+    }
 }

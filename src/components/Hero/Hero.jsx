@@ -14,7 +14,7 @@ const Hero = () => {
       </div> 
 
       <div className='flex flex-col justify-between items-center gap-12 lg:gap-6 z-10'>
-        <p className='text-lg md:text-[22px] lg:text-[26px] text-[#55675b] flex flex-col md:flex-row items-center md:gap-2'>
+        <p className='text-[17px] md:text-[22px] lg:text-[26px] text-[#55675b] flex flex-col md:flex-row items-center md:gap-2'>
           <span><i className="fa-solid fa-laptop mr-2"></i>Online Sessions (Available Now) </span>
           <span className='hidden md:block'>|</span>
           <span><i className="fa-solid fa-location-dot mr-2"></i> Seremban (Coming Soon)</span>

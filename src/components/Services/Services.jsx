@@ -34,21 +34,21 @@ const Services = () => {
 
   return (
     <div className='about relative bg-[#fff4e9] p-24 px-[10%] lg:px-[15%] flex flex-col gap-14'>
-        <img className='absolute -top-36 -left-20 w-112.5' src="src/assets/service.png" alt="service" />
-        <h2 className='relative text-[60px] text-[#fff4e9] mx-auto w-fit px-12 py-4 bg-[url("src/assets/services.png")] bg-no-repeat bg-center bg-contain'>
+        <img className='absolute -top-32 -left-20 w-112.5' src="src/assets/service.png" alt="service" />
+        <h2 className='relative text-5xl sm:text-[60px] text-[#fff4e9] mx-auto w-fit px-12 py-4 bg-[url("src/assets/services.png")] bg-no-repeat bg-center bg-contain'>
             Services
         </h2>
 
-        <p className='text-[#55675b] text-[21px] px-[10%]'>Counselling services are available for adolescents and adults, focusing on emotional wellbeing, personal challenges, and life transitions.</p>
+        <p className='text-[#55675b] text-[21px] sm:px-[10%]'>Counselling services are available for adolescents and adults, focusing on emotional wellbeing, personal challenges, and life transitions.</p>
     
-       <div className='flex flex-wrap gap-10 justify-evenly items-stretch'>
+       <div className='flex flex-wrap gap-10 md:justify-evenly lg:justify-center items-stretch'>
         {serviceData.map((service, index) => (
           <div 
             key={index} 
-            className='bg-white p-8 rounded-2xl shadow-xl flex flex-col gap-4 min-w-full max-w-[50%] md:w-[30%] lg:w-[30%]'
+            className='bg-white p-4 sm:p-8 rounded-2xl shadow-xl flex flex-col gap-4 md:w-[45%] xl:w-[28%]'
           >
             <ul className="p-0 m-0">
-              <li className='service-list font-bold text-[#55675b] text-2xl'>{service.title}</li>
+              <li className='service-list'>{service.title}</li>
             </ul>
             {service.desc.map((paragraph, pIndex) => (
               <p key={pIndex} className='text-[19px] text-[#55675b] leading-relaxed'>
@@ -59,9 +59,9 @@ const Services = () => {
           ))}
         </div>
 
-        <div className='bg-white p-8 rounded-2xl shadow-xl w-fit mx-auto flex flex-col gap-6'>
-          <p className='text-3xl font-bold text-[#55675b] text-center'>Areas of Support</p>
-          <ul className='text-[21px] text-[#55675b] flex flex-col gap-4'>
+        <div className='bg-white p-4 sm:p-8 rounded-2xl shadow-xl w-fit mx-auto flex flex-col gap-6'>
+          <p className='text-3xl font-bold text-[#55675b] text-center border-b-[#55675b] border-b'>Areas of Support</p>
+          <ul className='text-[21px] text-[#55675b] flex flex-col gap-8 sm:gap-4'>
             {areaOfSupport.map((support, index) => (
               <li key={index} className='support-list'>{support}</li>
             ))}
