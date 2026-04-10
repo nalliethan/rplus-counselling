@@ -9,18 +9,6 @@
    
 }
 
-.service-list::before,
-.support-list::before{
-    margin-right:5px;
-    content: ""; 
-    display: inline-block;
-    min-width: 22px;
-    height: 18px;
-    background-image: url("src/assets/bullet.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
 @media (min-width: 768px){
     .service-list{
         display:flex;
