@@ -18,3 +18,13 @@
     background-size: contain;
     background-repeat: no-repeat;
 }
+
+#hero,
+#about,
+#practitioner,
+#services,
+#session,
+#booking {
+  /* Match this value to the height of your navbar */
+  scroll-margin-top: 65px; 
+}
