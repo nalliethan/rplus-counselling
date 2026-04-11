@@ -1,8 +1,8 @@
 const Booking = () => {
   return (
-    <div className='bg-[#fff4e9] w-full'>
+    <div id="booking" className='bg-[#fff4e9] w-full'>
         <div className="bg-[#829489] py-6 text-white text-4xl sm:text-5xl lg:text-6xl text-center">Book A Session</div>
-        <div className="w-full px-[10%] md:px-[20%] lg:px-[25%] xl:px-[30%] text-center py-20 text-[#55675b] text-lg md:text-2xl flex flex-col gap-10">
+        <div className="min-h-[70vh] w-full px-[10%] md:px-[20%] lg:px-[25%] xl:px-[30%] py-20 text-center text-[#55675b] text-lg md:text-2xl flex flex-col justify-center gap-14">
             <div>
                 Taking the first step can feel difficult.
             </div>

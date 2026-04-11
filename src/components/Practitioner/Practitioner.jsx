@@ -9,8 +9,8 @@ const Practitioner = () => {
 
 
   return (
-    <div className='flex flex-col lg:flex-row items-center bg-[#fffcfc] py-[20%] px-[9%] sm:py-24 sm:px-[15%]' >
-        <h1 className='block lg:hidden text-4xl text-[#55675b] font-bold mb-4 w-full'>About the Practitioner</h1>
+    <div id="practitioner" className='flex flex-col lg:flex-row items-center bg-[#fffcfc] py-[20%] px-[9%] sm:py-24 sm:px-[15%]' >
+        <h1 className='block lg:hidden text-[40px] text-[#55675b] font-bold leading-none mb-4 w-full'>About the Practitioner</h1>
 
         <img 
             className='w-fit h-fit mb-4 lg:absolute lg:object-contain lg:right-20 xl:right-40' 
@@ -18,8 +18,8 @@ const Practitioner = () => {
             alt="practitioner" 
         />
 
-        <div className='flex flex-col gap-8 lg:basis-[60%] xl:basis-[70%] text-[#55675b] text-lg lg:relative lg:z-10 '>
-            <h1 className='hidden lg:block text-4xl lg:text-5xl font-bold'>About the Practitioner</h1>
+        <div className='flex flex-col gap-8 lg:basis-[60%] xl:basis-[70%] text-[#55675b] text-xl lg:relative lg:z-10 '>
+            <h1 className='hidden lg:block text-4xl lg:text-5xl font-bold mb-4'>About the Practitioner</h1>
             
             <div>
                 <div className='text-xl sm:text-2xl font-bold mb-2'>

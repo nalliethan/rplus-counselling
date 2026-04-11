@@ -3,7 +3,7 @@ import './Hero.css'
 
 const Hero = () => {
   return (
-    <div className='hero relative bg-[#fff4e9] pt-36 pb-24 px-[10%] lg:px-[20%] mx-auto flex flex-col gap-14 md:gap-24'>
+    <div id="hero" className='hero relative bg-[#fff4e9] pt-36 pb-24 px-[10%] lg:px-[20%] mx-auto flex flex-col gap-14 md:gap-24'>
       <img src="src/assets/hero-bg-1.png" alt="hero-bg" className='hero-top-image'/>
       <img src="src/assets/hero-bg-2.png" alt="hero-bg" className='hero-bottom-image'/>
       
@@ -20,7 +20,7 @@ const Hero = () => {
           <span><i className="fa-solid fa-location-dot mr-2"></i> Seremban (Coming Soon)</span>
         </p>
 
-        <button className='text-2xl lg:text-3xl text-white bg-[#ee9c56] px-14 py-3 rounded-xl cursor-pointer hover:bg-[#f7ae6e] duration-200'>Book Now</button>  
+        <button className='text-2xl lg:text-3xl text-white bg-[#ee9c56] px-14 py-3 rounded-xl cursor-pointer hover:bg-[#f7ae6e] hover:scale-105 duration-200'>Book Now</button>  
       </div>
     </div>
   )

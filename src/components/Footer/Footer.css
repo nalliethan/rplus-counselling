@@ -1,0 +1,25 @@
+.footer-links{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    li a {
+    color: white;
+    transition: color 0.4s ease;
+
+        &:hover {
+            color: #ffe770; 
+            text-decoration: underline;
+        }
+    }
+}
+
+.footer-social a{
+    transition: all 0.3s ease;
+
+    &:hover{
+        color: #fff1aa;
+        scale: 105%;
+    }
+}
+
