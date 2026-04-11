@@ -1,0 +1,23 @@
+.service-list{
+    display:flex;
+    align-items: start;
+    gap: 6px;
+    list-style: none;
+    font-size: 22px;
+    font-weight: bold;
+    color: #55675b;
+   
+}
+
+@media (min-width: 768px){
+    .service-list{
+        display:flex;
+        align-items: start;
+        gap: 6px;
+        list-style: none;
+        font-size: 22px;
+        font-weight: bold;
+        color: #55675b;
+        min-height:80px;
+    }
+}

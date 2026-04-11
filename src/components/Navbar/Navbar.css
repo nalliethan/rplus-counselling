@@ -1,0 +1,50 @@
+.navbar-links{
+    display: none;
+}
+
+.action-btn{
+    background-color: #ee9c56;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 4px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    &:hover{
+        background-color: #f7ae6e;
+        scale: 105%;
+    }
+}
+
+.mobile-navbar{
+    display: block;
+}
+
+@media (min-width: 1024px){
+    .navbar-links{
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        transition: all 0.5s ease;
+        font-size: 16px;
+
+        li{
+            padding:2px 10px;
+            border-radius: 20px;
+                &.active{
+                    background-color: #ffead8;
+                }
+
+                a:hover{
+                    color: #ee9c56;
+                    border-bottom: 2px solid #ee9c56;
+                }
+        } 
+    }
+
+    .mobile-navbar{
+        display: none;
+    }
+}

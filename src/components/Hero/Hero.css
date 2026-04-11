@@ -1,0 +1,91 @@
+.hero{
+    .hero-top-image{
+        position: absolute;
+        width: 90%;
+        top: -6%;
+        left: -10%;
+    }
+
+     .hero-bottom-image{
+        display: none;
+     }
+}
+
+@media (min-width: 425px){
+    .hero{
+        .hero-top-image{
+            width: 70%;
+            top: -8%;
+            left: -10%;
+        }
+    }
+}
+
+@media (min-width: 620px){
+    .hero{
+        .hero-top-image{
+            width: 50%;
+            top: -8%;
+            left: -10%;
+        }
+
+        .hero-bottom-image{
+            display: block;
+            position: absolute;
+            width: 30%;
+            bottom: 0;
+            right: 0; 
+        }
+    }
+}
+
+@media (min-width: 768px){
+    .hero{
+        .hero-top-image{
+            display: block;
+            position: absolute;
+            width: 50%;
+            top: -10%;
+            left: -10%;
+        }
+
+        .hero-bottom-image{
+            display: block;
+            position: absolute;
+            width: 28%;
+            right: 0;
+        }
+    }
+}
+
+@media (min-width: 1024px){
+    .hero{
+        .hero-top-image{
+            width: 40%;
+            top: -10%;
+            left: -2%;
+        }
+
+        .hero-bottom-image{
+            width: 25%;
+            right: 10%;
+        }
+    }
+}
+
+@media (min-width: 1440px){
+    .hero{
+        .hero-top-image{
+            width: 22%;
+            top: -8%;
+            left: 15%;
+        }
+
+        .hero-bottom-image{
+            width: 15%;
+            bottom: 0;
+            right: 20%;
+        }
+    }
+}
+
