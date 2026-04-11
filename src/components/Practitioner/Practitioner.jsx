@@ -9,7 +9,7 @@ const Practitioner = () => {
 
 
   return (
-    <div className='flex flex-col lg:flex-row items-center bg-[#fffcfc] py-[20%] px-[8%] sm:py-24 sm:px-[15%]' >
+    <div className='flex flex-col lg:flex-row items-center bg-[#fffcfc] py-[20%] px-[9%] sm:py-24 sm:px-[15%]' >
         <h1 className='block lg:hidden text-4xl text-[#55675b] font-bold mb-4 w-full'>About the Practitioner</h1>
 
         <img 
@@ -22,12 +22,12 @@ const Practitioner = () => {
             <h1 className='hidden lg:block text-4xl lg:text-5xl font-bold'>About the Practitioner</h1>
             
             <div>
-                <div className='text-xl font-bold'>
+                <div className='text-xl sm:text-2xl font-bold mb-2'>
                     Than Liying, Rachael (K.B.;P.A)
                 </div>
                 <ul>
                     {practitionerData.map((service, index) => (
-                        <li key={index} className='practitioner-list'>{service}</li>
+                        <li key={index} className='practitioner-list mb-4'>{service}</li>
                     ))}
                 </ul>
             </div>
