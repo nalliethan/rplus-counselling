@@ -20,7 +20,7 @@ const Hero = () => {
           <span><i className="fa-solid fa-location-dot mr-2"></i> Seremban (Coming Soon)</span>
         </p>
 
-        <button className='text-2xl lg:text-3xl text-white bg-[#ee9c56] px-14 py-3 rounded-xl cursor-pointer hover:bg-[#f7ae6e] hover:scale-105 duration-200'>Book Now</button>  
+        <a href='#booking' className='text-2xl lg:text-3xl text-white bg-[#ee9c56] px-14 py-3 rounded-xl cursor-pointer hover:bg-[#f7ae6e] hover:scale-105 duration-200'>Book Now</a>  
       </div>
     </div>
   )
