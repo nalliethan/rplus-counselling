@@ -9,6 +9,7 @@
 .practitioner-list::before,
 .service-list::before,
 .support-list::before{
+    margin-top: 7px;
     margin-right:5px;
     content: ""; 
     display: inline-block;
