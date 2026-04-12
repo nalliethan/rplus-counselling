@@ -29,11 +29,13 @@ const Hero = () => {
           </motion.h1>
           
           <img src={hero3} alt="hero-bg" className='hidden md:block md:w-[50%] mx-auto'/>
-          <p className='max-[375px]:px-10 text-lg md:text-2xl text-[#55675b] leading-normal'>Professional Counselling for Adolescents & Adults</p>
+          <p className='max-[400px]:px-11 text-lg md:text-2xl text-[#55675b] leading-normal'>
+            Professional Counselling for Adolescents & Adults
+          </p>
       </div> 
 
       <div className='flex flex-col justify-between items-center gap-12 lg:gap-6 z-10'>
-        <p className='max-[320px]:text-lg text-xl md:text-[22px] lg:text-[26px] text-[#55675b] flex flex-col md:flex-row items-center md:gap-2'>
+        <p className='max-[320px]:text-lg text-xl md:text-[22px] lg:text-[26px] text-[#55675b] flex flex-col md:flex-row items-center gap-4 md:gap-2'>
           <span><i className="fa-solid fa-laptop mr-2"></i>Online Sessions</span>
           <span className='hidden md:block'>|</span>
           <span><i className="fa-solid fa-location-dot mr-2"></i> Seremban 2</span>
