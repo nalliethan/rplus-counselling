@@ -50,7 +50,7 @@ const Footer = () => {
         
         <div className="text-white text-center pt-3 border-t">
             <div>
-               © 2026 R+ Counselling Space. <br/> All Rights Reserved. 
+               © 2026 R+ Counselling Space. All Rights Reserved. 
             </div>
             <div>
                 RT POSSIBILITIES ENTERPRISE | Registration No: 20250316676018 (RA03354240-T)

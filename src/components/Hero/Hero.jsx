@@ -34,9 +34,9 @@ const Hero = () => {
 
       <div className='flex flex-col justify-between items-center gap-12 lg:gap-6 z-10'>
         <p className='max-[320px]:text-lg text-xl md:text-[22px] lg:text-[26px] text-[#55675b] flex flex-col md:flex-row items-center md:gap-2'>
-          <span><i className="fa-solid fa-laptop mr-2"></i>Online Sessions (Available Now) </span>
+          <span><i className="fa-solid fa-laptop mr-2"></i>Online Sessions</span>
           <span className='hidden md:block'>|</span>
-          <span><i className="fa-solid fa-location-dot mr-2"></i> Seremban (Coming Soon)</span>
+          <span><i className="fa-solid fa-location-dot mr-2"></i> Seremban 2</span>
         </p>
 
         <a href='#booking' className='text-2xl lg:text-3xl text-white bg-[#ee9c56] px-14 py-3 rounded-xl cursor-pointer hover:bg-[#f7ae6e] hover:scale-105 duration-200'>Book Now</a>  
