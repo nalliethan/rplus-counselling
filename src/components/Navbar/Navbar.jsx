@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import './Navbar.css';
+import logo from '../../assets/navbar_logo.png'
 
 const Navbar = () => {
 const [isScrolled, setIsScrolled] = useState(false);
@@ -64,7 +65,7 @@ const menuRef = useRef(null);
   return (
    <nav className={` flex items-center justify-between bg-[#fffcfc] text-[#c4a183] px-[5%] py-3 sticky z-20 top-0 duration-300 ${isScrolled ? 'shadow-2xl' : 'shadow-none'}`}>
         <a href='#hero' className="relative text-xl flex items-center gap-4">
-            <img className='w-10' src="src/assets/navbar_logo.png" alt="logo" />
+            <img className='w-10' src={logo} alt="logo" />
             R+ Counselling Space</a>
 
         <ul className='navbar-links'>

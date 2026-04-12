@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div id="about" className='about bg-[#bbccc2] py-10 sm:py-24 px-[10%] xl:px-[20%]'>
       <div className='flex flex-col gap-8 md:flex-row sm:gap-11 items-center'>
-         <h2 className='text-5xl sm:text-[56px] text-[#5a6a5d] font-bold text-center w-52 sm:w-64 py-16 bg-[url("src/assets/about.png")] bg-no-repeat bg-center bg-contain'>
+         <h2 className='text-5xl sm:text-[56px] text-[#5a6a5d] font-bold text-center w-52 sm:w-64 py-16 bg-[url("../src/assets/about.png")] bg-no-repeat bg-center bg-contain'>
             R+
         </h2>
 

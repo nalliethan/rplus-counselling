@@ -1,4 +1,6 @@
 import './Services.css'
+import servicesTitle from '../../assets/services.png';
+import serviceBg from '../../assets/service.png';
 
 const Services = () => {
   const serviceData = [
@@ -34,8 +36,8 @@ const Services = () => {
 
   return (
     <div id="services" className='about relative bg-[#fff4e9] p-24 px-[10%] lg:px-[15%] flex flex-col gap-14'>
-        <img className='absolute -top-32 -left-20 w-112.5' src="src/assets/service.png" alt="service" />
-        <h2 className='relative text-5xl sm:text-[60px] text-[#fff4e9] mx-auto w-fit px-10 py-6 bg-[url("src/assets/services.png")] bg-no-repeat bg-center bg-contain'>
+        <img className='absolute -top-32 -left-20 w-112.5' src={serviceBg} alt="service" />
+        <h2 className='relative text-5xl sm:text-[60px] text-[#fff4e9] mx-auto w-fit px-10 py-6 bg-[url("../src/assets/services.png")] bg-no-repeat bg-center bg-contain'>
             Services
         </h2>
 

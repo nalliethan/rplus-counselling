@@ -1,11 +1,13 @@
 import './Footer.css'
+import logo from '../../assets/logo.png';
+import rednote from '../../assets/rednote.png';
 
 const Footer = () => {
   return (
     <footer className='bg-[#55675b] pt-20 pb-8 px-[10%] lg:px-[5%] flex flex-col gap-20 sm:gap-14'>
         <div className="flex flex-col gap-10 lg:flex-row lg:justify-between lg:items-center">
             <div className="flex items-center flex-col sm:flex-row gap-5 md:gap-10">
-                <img className="w-[40%] sm:w-[30%] md:w-[22%]" src="src/assets/logo.png" alt="logo" />
+                <img className="w-[40%] sm:w-[30%] md:w-[22%]" src={logo} alt="logo" />
                 <div className="flex flex-col gap-4">
                     <div className="text-3xl sm:text-4xl text-white">R+ Counselling Space</div>
                     <div className="footer-social text-3xl text-white flex items-center gap-10">
@@ -18,7 +20,7 @@ const Footer = () => {
                         </a>
 
                         <a href="https://www.xiaohongshu.com/user/profile/USER_ID" target='_blank' className="border-2 p-1 rounded-sm">
-                            <img className="w-4.5" src="src/assets/rednote.png" alt="rednote" />
+                            <img className="w-4.5" src={rednote} alt="rednote" />
                         </a> 
                         
                     </div>

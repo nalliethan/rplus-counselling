@@ -14,7 +14,7 @@
     display: inline-block;
     min-width: 22px;
     height: 18px;
-    background-image: url("src/assets/bullet.png");
+    background-image: url("../src/assets/bullet.png");
     background-size: contain;
     background-repeat: no-repeat;
 }

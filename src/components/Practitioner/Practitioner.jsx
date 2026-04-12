@@ -1,4 +1,5 @@
 import './Practitioner.css'
+import practitioner from '../../assets/practitioner.png';
 
 const Practitioner = () => {
     const practitionerData = [
@@ -14,7 +15,7 @@ const Practitioner = () => {
 
         <img 
             className='w-fit h-fit mb-4 lg:absolute lg:object-contain lg:right-20 xl:right-40' 
-            src="src/assets/practitioner.png" 
+            src={practitioner} 
             alt="practitioner" 
         />
 
