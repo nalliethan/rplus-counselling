@@ -2,12 +2,9 @@ const Booking = () => {
   return (
     <div id="booking" className='bg-[#fff4e9] w-full'>
         <div className="bg-[#829489] py-6 text-white text-4xl sm:text-5xl lg:text-6xl text-center">Book A Session</div>
-        <div className="min-h-[70vh] w-full px-[10%] md:px-[20%] lg:px-[25%] xl:px-[30%] py-20 text-center text-[#55675b] text-lg md:text-2xl flex flex-col justify-center gap-14">
+        <div className="min-h-[60vh] w-full px-[10%] md:px-[20%] lg:px-[25%] xl:px-[30%] py-20 text-center text-[#55675b] text-lg md:text-2xl flex flex-col justify-center gap-14">
             <div>
-                Taking the first step can feel difficult.
-            </div>
-            <div>
-                You are welcome to reach out to enquire or book an initial session via WhatsApp when you feel ready.
+                You are welcome to reach out via WhatsApp to enquire or arrange a session when you feel ready.            
             </div>
 
             <div className="w-full flex justify-center">
@@ -15,7 +12,7 @@ const Booking = () => {
                     <div className='text-4xl flex justify-center'>
                         <i class="fa-brands fa-whatsapp"></i>
                     </div>
-                    Enquire via WhatsApp
+                    Reach Out via WhatsApp
                 </a>
             </div>
             
