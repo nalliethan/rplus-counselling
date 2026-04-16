@@ -70,7 +70,7 @@ const toggleLanguage = () => {
   };
 
   return (
-   <nav className={` flex items-center justify-between bg-[#fffcfc] text-[#c4a183] px-[5%] py-3 sticky z-20 top-0 duration-300 ${isScrolled ? 'shadow-2xl' : 'shadow-none'}`}>
+   <nav className={` flex items-center justify-between bg-[#fffcfc] text-[#c4a183] px-[2%] xl:px-[5%] py-3 sticky z-20 top-0 duration-300 ${isScrolled ? 'shadow-2xl' : 'shadow-none'}`}>
         <a href='#hero' className="relative text-xl flex items-center gap-4">
             <img className='w-10' src={logo} alt="logo" />
             R+ Counselling Space</a>
@@ -115,12 +115,7 @@ const toggleLanguage = () => {
 
         <div className='mobile-navbar' ref={menuRef}>
           <div className='flex gap-6'>
-            <button 
-              onClick={toggleLanguage}
-              className="px-4 py-2 bg-red-400 text-white rounded-full cursor-pointer hover:bg-red-300 transition"
-            >
-              {i18n.language === 'en' ? '中文' : 'English'}
-            </button>
+           
             <div className='min-w-12 h-10 flex items-center justify-center' onClick={toggleMenu}>
                 <i className={`fa-solid ${menuOpen ? 'fa-xmark' : 'fa-bars'}`}></i>
             </div>
@@ -134,6 +129,12 @@ const toggleLanguage = () => {
                   <li className={activeSection === 'practitioner' ? 'active' : ''}><a className='block' href="#practitioner">{t('nav_practitioner')}</a></li>
                   <li className={activeSection === 'session' ? 'active' : ''}><a className='block' href="#session">{t('nav_session')}</a></li>
                   <a className='action-btn' href="#booking">{t('hero_book_now')}</a>
+                  <button 
+                    onClick={toggleLanguage}
+                    className="px-4 py-2 bg-red-400 text-white rounded-full cursor-pointer hover:bg-red-300 transition"
+                  >
+                    {i18n.language === 'en' ? '中文' : 'English'}
+                  </button>
               </ul>
           </div>
         </div>

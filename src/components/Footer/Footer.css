@@ -23,3 +23,17 @@
     }
 }
 
+.footer_nav{
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 32px;
+}
+
+
+@media(min-width: 375px){
+    .footer_nav{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

@@ -9,7 +9,7 @@ const Hero = () => {
   const { t } = useTranslation();
 
   return (
-    <div id="hero" className='hero relative bg-[#fff4e9] pt-36 pb-24 px-[5%] sm:px-[10%] lg:px-[20%] mx-auto flex flex-col gap-14 md:gap-24'>
+    <div id="hero" className='hero relative bg-[#fff4e9] pt-36 pb-24 px-[5%] sm:px-[10%] lg:px-[15%]  mx-auto flex flex-col gap-14 md:gap-24'>
       <motion.img
         src={hero1}
         alt="hero-bg"

@@ -10,7 +10,7 @@ const Services = () => {
   return (
     <div id="services" className='about relative bg-[#fff4e9] p-24 px-[10%] lg:px-[15%] flex flex-col gap-14'>
         <img className='absolute -top-32 -left-20 w-112.5' src={serviceBg} alt="service" />
-        <h2 className='relative text-5xl sm:text-[60px] text-[#fff4e9] mx-auto w-fit px-10 py-9 bg-[url("../src/assets/services.png")] bg-no-repeat bg-center bg-contain'>
+        <h2 className='relative text-4xl sm:text-[60px] text-[#fff4e9] mx-auto w-fit px-10 py-9 bg-[url("../src/assets/services.png")] bg-no-repeat bg-center bg-contain'>
             {t('services_title')}
         </h2>
 
@@ -22,9 +22,9 @@ const Services = () => {
         {serviceData.map((service, index) => (
           <div 
             key={index} 
-            className='bg-white p-4 sm:p-8 rounded-2xl shadow-xl flex flex-col gap-4 md:w-[45%] xl:w-[28%]'
+            className='bg-white p-4 sm:p-7 rounded-2xl shadow-xl flex flex-col gap-4 md:w-[45%] xl:w-[28%]'
           >
-            <ul className="p-0 m-0">
+            <ul className="xl:h-24">
               <li className='service-list'>{service.title}</li>
             </ul>
             {service.desc.map((paragraph, pIndex) => (
