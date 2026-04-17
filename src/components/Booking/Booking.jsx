@@ -5,7 +5,7 @@ const Booking = () => {
 
   return (
     <div id="booking" className='bg-[#fff4e9] w-full'>
-        <div className="bg-[#829489] py-6 text-white text-4xl sm:text-5xl lg:text-6xl text-center">
+        <div className="bg-[#829489] py-6 text-white text-4xl sm:text-5xl lg:text-6xl text-center shadow-lg">
             {t('book_title')}
         </div>
         <div className="min-h-[60vh] min-w-[55vw] w-full px-[9%] py-20 text-center text-[#55675b] text-xl sm:text-2xl flex flex-col justify-center gap-14">

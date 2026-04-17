@@ -1,0 +1,43 @@
+.faq-item{
+    border-radius: 12px;
+    border: 1px solid rgb(255, 235, 212);
+    box-shadow: 10px 10px 8px rgba(0.2, 0.2, 0.2, 0.1);
+
+    .question{
+        font-size: 20px;
+        color:#905928;
+        font-weight: 600;
+        background-color: #faead8;
+        padding: 16px 22px;
+        width: full;
+        border-radius: 12px;
+    }
+
+    .answer{
+        color: rgb(105, 100, 100);
+        padding:0 22px;
+
+        &.highlight{
+            color: black;
+        }
+    }
+}
+
+.faq-content-wrapper {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.4s ease-out, opacity 0.3s ease;
+  overflow: hidden;
+  opacity: 0;
+}
+
+/* When open, change 0fr to 1fr */
+.faq-content-wrapper.open {
+  grid-template-rows: 1fr;
+  opacity: 1;
+}
+
+/* This inner div ensures the content doesn't get squashed during the transition */
+.faq-content-inner {
+  min-height: 0;
+}

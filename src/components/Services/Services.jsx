@@ -24,7 +24,7 @@ const Services = () => {
             key={index} 
             className='bg-white p-4 sm:p-7 rounded-2xl shadow-xl flex flex-col gap-4 md:w-[45%] xl:w-[28%]'
           >
-            <ul className="xl:h-24">
+            <ul className="xl:h-20">
               <li className='service-list'>{service.title}</li>
             </ul>
             {service.desc.map((paragraph, pIndex) => (

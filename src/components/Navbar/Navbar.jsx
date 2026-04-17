@@ -109,7 +109,7 @@ const toggleLanguage = () => {
               onClick={toggleLanguage}
               className="px-4 py-2 bg-red-400 text-white rounded-full cursor-pointer hover:bg-red-300 transition"
             >
-              {i18n.language === 'en' ? '中文' : 'English'}
+              {i18n.language === 'en' ? '中' : 'EN'}
             </button>
         </ul>
 
@@ -133,7 +133,7 @@ const toggleLanguage = () => {
                     onClick={toggleLanguage}
                     className="px-4 py-2 bg-red-400 text-white rounded-full cursor-pointer hover:bg-red-300 transition"
                   >
-                    {i18n.language === 'en' ? '中文' : 'English'}
+                    {i18n.language === 'en' ? '中' : 'EN'}
                   </button>
               </ul>
           </div>

@@ -1,5 +1,6 @@
 import About from "./components/About/About"
 import Booking from "./components/Booking/Booking"
+import FAQ from "./components/FAQ/FAQ"
 import Footer from "./components/Footer/Footer"
 import Hero from "./components/Hero/Hero"
 import Navbar from "./components/Navbar/Navbar"
@@ -18,6 +19,7 @@ function App() {
       <Practitioner/>
       <Session/>
       <Booking/>
+      <FAQ/>
       <Footer/>
     </div>
   )
