@@ -47,12 +47,12 @@ const FAQ = () => {
         {
             id: 5,
             question: "How are sessions conducted?",
-            answers: ["Sessions are conducted either online or in-person (Seremban). In-person sessions are held at a partnered professional space."]
+            answers: ["Sessions are currently available online.", "In-person sessions in Seremban 2 will be available at a later stage. Further details will be shared upon confirmation."]
         },
         {
             id: 6,
             question: "How do I book a session?",
-            answers: ["You may reach out via WhatsApp to enquire or book a session. Scheduling for in-person sessions will be coordinated with the partnered space to ensure availability."]
+            answers: ["You may reach out via WhatsApp to enquire or book a session. "]
         },
         {
             id: 7,
@@ -62,7 +62,7 @@ const FAQ = () => {
         {
             id: 8,
             question: "Is counselling eligible for income tax relief in Malaysia?",
-            answers: ["According to the latest LHDN guidelines, certain medical and mental health-related expenses may be eligible for tax relief, which may include services provided by mental health professionals such as psychiatrists, clinical psychologists, and licensed counsellors, subject to LHDN assessment. Clients are advised to consult their tax agent for confirmation."]
+            answers: ["According to the latest LHDN guidelines, certain medical and mental health-related expenses may be eligible for tax relief, which may include services provided by mental health professionals such as psychiatrists, clinical psychologists, and licensed counsellors, subject to LHDN assessment.", "Clients are advised to consult their tax agent for confirmation."]
         }
     ];
 

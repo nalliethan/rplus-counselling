@@ -12,7 +12,7 @@ const Footer = () => {
             <div className="flex items-center flex-col sm:flex-row gap-5 md:gap-10">
                 <img className="w-[40%] sm:w-[30%] md:w-[22%]" src={logo} alt="logo" />
                 <div className="flex flex-col gap-4">
-                    <div className="text-3xl sm:text-4xl text-white">R+ Counselling Space</div>
+                    <div className="text-3xl sm:text-4xl text-white">R+ Counselling</div>
                     <div className="footer-social text-3xl text-white flex items-center gap-10">
                         <a href="https://wa.me/601129980528" target="_blank">
                             <i className="fa-brands fa-whatsapp"></i>
@@ -53,7 +53,7 @@ const Footer = () => {
         
         <div className="text-white text-center pt-3 border-t">
             <div>
-               © 2026 R+ Counselling Space. All Rights Reserved. 
+               © 2026 R+ Counselling. All Rights Reserved. 
             </div>
             <div>
                 RT POSSIBILITIES ENTERPRISE | Registration No: 20250316676018 (RA03354240-T)

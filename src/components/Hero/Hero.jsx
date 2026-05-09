@@ -27,11 +27,11 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }} 
             className='text-4xl sm:text-[40px] md:text-[66px] lg:text-[80px] xl:text-[88px] mb-3 md:mb-0 font-semibold  text-[#5a6a5d] leading-none'>
-              R+ Counselling Space
+              R+ Counselling
           </motion.h1>
           
           <img src={hero3} alt="hero-bg" className='hidden md:block md:w-[50%] mx-auto'/>
-          <p className='max-[400px]:px-11 text-lg md:text-2xl text-[#55675b] leading-normal'>
+          <p className='text-lg md:text-2xl text-[#55675b] leading-normal'>
             {t('hero_subtitle')}
           </p>
       </div> 
@@ -42,10 +42,34 @@ const Hero = () => {
           <span className='hidden md:block'>|</span>
           <span><i className="fa-solid fa-location-dot mr-2"></i>{t('hero_offline')}</span>
         </p>
+<a
+  href="#booking"
+  className="
+    inline-block
+    px-12 py-4
+    text-2xl lg:text-3xl
+    font-bold
+    text-white
 
-        <a href='#booking' className='text-2xl lg:text-3xl text-white bg-[#ee9c56] px-14 py-3 rounded-xl cursor-pointer hover:bg-[#f7ae6e] hover:scale-105 duration-200'>
-          {t('hero_book_now')}
-        </a>  
+    bg-linear-to-r
+    from-[#ffb676]
+    to-[#ff8c42]
+
+    rounded-full
+
+    shadow-[0_10px_30px_rgba(255,140,66,0.45)]
+
+    transition-all duration-300
+
+    hover:scale-105
+    hover:shadow-[0_15px_40px_rgba(255,140,66,0.6)]
+    hover:-translate-y-1
+
+    active:scale-95
+  "
+>
+  {t('hero_book_now')}
+</a>
       </div>
     </div>
   )

@@ -13,7 +13,7 @@ const About = () => {
         </h2>
 
         <div className='flex-7 p-5 sm:p-9 bg-white text-[#5a6a5d] text-lg sm:text-[21px] flex flex-col gap-6 shadow-2xl z-10 rounded-2xl'>
-          <p className='text-2xl font-bold'>About the Space</p>
+          <p className='text-2xl font-bold'>About R+</p>
           <p>
             <Trans 
               i18nKey="about_paragraph" 
