@@ -42,34 +42,34 @@ const Hero = () => {
           <span className='hidden md:block'>|</span>
           <span><i className="fa-solid fa-location-dot mr-2"></i>{t('hero_offline')}</span>
         </p>
-<a
-  href="#booking"
-  className="
-    inline-block
-    px-12 py-4
-    text-2xl lg:text-3xl
-    font-bold
-    text-white
+        <a
+          href="#booking"
+          className="
+            inline-block
+            px-12 py-4
+            text-2xl lg:text-3xl
+            font-bold
+            text-white
 
-    bg-linear-to-r
-    from-[#ffb676]
-    to-[#ff8c42]
+            bg-linear-to-r
+            from-[#ffb676]
+            to-[#ff8c42]
 
-    rounded-full
+            rounded-full
 
-    shadow-[0_10px_30px_rgba(255,140,66,0.45)]
+            shadow-[0_10px_30px_rgba(255,140,66,0.45)]
 
-    transition-all duration-300
+            transition-all duration-300
 
-    hover:scale-105
-    hover:shadow-[0_15px_40px_rgba(255,140,66,0.6)]
-    hover:-translate-y-1
+            hover:scale-105
+            hover:shadow-[0_15px_40px_rgba(255,140,66,0.6)]
+            hover:-translate-y-1
 
-    active:scale-95
-  "
->
-  {t('hero_book_now')}
-</a>
+            active:scale-95
+          "
+        >
+          {t('hero_book_now')}
+        </a>
       </div>
     </div>
   )

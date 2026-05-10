@@ -12,7 +12,7 @@ const resources = {
       "nav_practitioner":"About the Practitioner",
       "nav_session":"Session Mode",
       "hero_subtitle": "Professional Counselling for Adolescents & Adults",
-      "hero_online": "Online Session",
+      "hero_online": "Online Session (Available Now)",
       "hero_offline": "Seremban 2 (Coming Soon)",
       "hero_book_now": "Book Now",
       "about_title": "R+ Counselling",
@@ -23,14 +23,17 @@ const resources = {
       "services":{ 
         "list": [
           {
+            id: 1,
             title: "Individual Counselling (Adult)",
             desc: ["A safe and confidential space to explore emotional concerns, navigate challenges, and work towards meaningful change at your own pace."]
           },
           {
+            id: 2,
             title: "Adolescent Counselling (Teens)",
             desc: ["Support for adolescents experiencing emotional difficulties, school-related stress, peer relationships, family communication, and identity development."]
           },
           {
+            id: 3,
             title: "Parent Consultation",
             desc: ["Support for parents seeking to better understand their child or teenager’s emotional needs, behaviour, and communication patterns."]
           },
@@ -39,6 +42,7 @@ const resources = {
           //   desc: ["Support for individuals exploring career direction, study pathways, decision-making, and transitions in education or work."]
           // },
           {
+            id: 4,
             title: "Wellbeing Talks and Workshop (Upon Request)",
             desc: ["Psychoeducation and wellbeing-focused sessions for schools, organisations, or groups.","Topics are tailored based on needs."]
           }
@@ -61,6 +65,7 @@ const resources = {
       "practitioner_para1":"Rachael provides counselling support for adolescents and adults in a safe, confidential, and non-judgmental space.",
       "practitioner_para2":"Her work is grounded in empathy, curiosity, and a collaborative approach, supporting individuals in exploring emotional experiences, navigating life challenges, and working toward meaningful and sustainable change.",
       "practitioner_para3":"With experience in school settings and leadership roles within counselling team, she has supported individuals and communities through emotional wellbeing concerns, life transitions, and interpersonal and developmental challenges.",
+      "practitioner_more":"Read More",
       "session_title":"Session Mode",
       "session_online":"Online Session (Available now)",
       "session_location":"Seremban 2 (In-person sessions coming soon)",
@@ -91,10 +96,10 @@ const resources = {
       "nav_home":"主页",
       "nav_aboutR":"关于 R+",
       "nav_services":"服务项目",
-      "nav_practitioner":"关于心理辅导师与咨询师",
+      "nav_practitioner":"关于心理辅导与咨询师",
       "nav_session":"辅导与咨询形式",
       "hero_subtitle": "青少年与成人的专业心理辅导与咨询",
-      "hero_online": "线上",
+      "hero_online": "线上 (现已开放)",
       "hero_offline": "芙蓉新城 S2（筹备中）",
       "hero_book_now": "欢迎联系",
       "about_title": "R+心理咨询与咨询",
@@ -143,6 +148,7 @@ const resources = {
       "practitioner_para1":"Rachael为青少年与成人提供心理咨询支持，在安全、保密且不带评判的空间中进行。",
       "practitioner_para2":"她的工作以同理心、好奇心与合作关系为基础，协助个体探索情绪经验、应对生活挑战，并迈向有意义且可持续的改变。",
       "practitioner_para3":"她曾在校园环境及辅导团队担任领导角色，协助个人与群体处理情绪健康、人生转变及人际与发展性议题。",
+      "practitioner_more":"阅读更多",
       "session_title":"辅导与咨询形式",
       "session_online":"线上",
       "session_location":"芙蓉新城 S2（筹备中）",

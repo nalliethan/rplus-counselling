@@ -7,7 +7,7 @@ const Footer = () => {
   const { t, i18n } = useTranslation();
 
   return (
-    <footer className='bg-[#55675b] pt-20 pb-8 px-[9%] lg:px-[5%] flex flex-col gap-20 sm:gap-14'>
+    <footer className='bg-[#55675b] pt-20 pb-8 px-[6%] lg:px-[5%] flex flex-col gap-20 sm:gap-14'>
         <div className="flex flex-col gap-10 lg:flex-row lg:justify-between lg:items-center">
             <div className="flex items-center flex-col sm:flex-row gap-5 md:gap-10">
                 <img className="w-[40%] sm:w-[30%] md:w-[22%]" src={logo} alt="logo" />

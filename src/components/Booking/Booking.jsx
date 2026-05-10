@@ -19,7 +19,9 @@ const Booking = () => {
             </div>
 
             <div className="w-full flex justify-center">
-                <a href={`https://wa.me/601129980528?text=${message}`} target="_blank" className="flex items-center gap-2 py-4 px-5 sm:px-10 md:px-20 lg:px-24 bg-[#f3966b] text-white text-lg md:text-[26px] rounded-full shadow-2xl cursor-pointer duration-150 hover:bg-[#f4a886] hover:scale-105">
+                <a href={`https://wa.me/601129980528?text=${message}`} target="_blank" className="flex items-center gap-2 py-4 px-5 sm:px-10 md:px-20 lg:px-24  bg-linear-to-r
+                        from-[#ffb676]
+                        to-[#ff8c42] text-white text-lg md:text-[26px] rounded-full shadow-2xl cursor-pointer duration-150 hover:bg-[#f4a886] hover:scale-105">
                     <div className='text-4xl flex justify-center'>
                         <i className="fa-brands fa-whatsapp"></i>
                     </div>
