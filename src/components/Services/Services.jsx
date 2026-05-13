@@ -25,7 +25,7 @@ const Services = () => {
   };
 
   return (
-    <div id="services" className='about relative bg-[#fff4e9] py-14 px-[6%] lg:px-[6%] flex flex-col gap-10'>
+    <div id="services" className='about relative bg-[#fff4e9] py-14 px-[6%] lg:px-[7%] flex flex-col gap-10'>
         <img className='absolute -top-32 -left-20 w-112.5' src={serviceBg} alt="service" />
         <h2 className='relative text-4xl sm:text-[60px] text-[#fff4e9] mx-auto w-fit px-10 py-9 bg-[url("../src/assets/services.png")] bg-no-repeat bg-center bg-contain'>
             {t('services_title')}
@@ -40,7 +40,7 @@ const Services = () => {
             const isOpen = openIds.includes(index);
 
             return (
-              <div key={index} className="bg-white p-4 sm:p-6 rounded-2xl shadow-xl flex flex-col gap-3 w-full xl:w-[23%]">
+              <div key={index} className="bg-white p-3 sm:p-6 rounded-2xl shadow-xl flex flex-col gap-3 w-full xl:w-[23%]">
                 <div 
                 className="cursor-pointer flex justify-between items-start hover:text-[#c3a082] transition-colors gap-1" 
                 onClick={() => toggleFAQ(index)}
@@ -51,7 +51,7 @@ const Services = () => {
                   </span>
                 </div>
 
-                <div className={`${isOpen ? 'min-h-20 opacity-100' : 'max-h-0 opacity-0'} overflow-hidden transition-all duration-500 ease-in-out`}>
+                <div className={`${isOpen ? 'max-h-32 opacity-100' : 'max-h-0 opacity-0'} overflow-hidden transition-all duration-500 ease-in-out flex flex-col gap-2`}>
                   {service.desc.map((paragraph, index) => (
                     <p key={index} className='text-[#4a5568]'> 
                       {paragraph}
