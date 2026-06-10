@@ -24,18 +24,19 @@ const resources = {
         "list": [
           {
             id: 1,
-            title: "Individual Counselling (Adult)",
-            desc: ["A safe and confidential space to explore emotional concerns, navigate challenges, and work towards meaningful change at your own pace."]
+            title: "Adolescent Counselling (Teens)",
+            desc: ["Provides a safe, confidential and non-judgmental space for adolescents to explore their emotional experiences and navigate challenges related to academic stress, relationships, family communication, identity development and future direction."]
           },
           {
             id: 2,
-            title: "Adolescent Counselling (Teens)",
-            desc: ["Support for adolescents experiencing emotional difficulties, school-related stress, peer relationships, family communication, and identity development."]
+            title: "Parent Consultation",
+            desc: ["Supports parents in understanding their child’s or adolescent’s emotional needs, behaviours and communication patterns, while exploring practical and developmentally appropriate ways to provide support."]
           },
+
           {
             id: 3,
-            title: "Parent Consultation",
-            desc: ["Support for parents seeking to better understand their child or teenager’s emotional needs, behaviour, and communication patterns."]
+            title: "Individual Counselling (Adult)",
+            desc: ["Provides a safe, confidential and non-judgmental space for adults to explore emotional concerns, navigate life challenges and move towards a more meaningful and values-aligned life at their own pace."]
           },
           // {
           //   title: "Career Counselling",
@@ -44,17 +45,17 @@ const resources = {
           {
             id: 4,
             title: "Wellbeing Talks and Workshop (Upon Request)",
-            desc: ["Psychoeducation and wellbeing-focused sessions for schools, organisations, or groups.","Topics are tailored based on needs."]
+            desc: ["Talks, workshops and training programmes can be tailored to the needs of schools, organisations, workplaces and community groups."]
           }
         ]
       },
       "services_support_title": "Areas of Support",
       "services_support": [
-        'Emotional wellbeing and stress management',
+        'Emotional and psychological wellbeing support',
         'Personal growth and self-understanding',
         'Relationship and interpersonal concerns',
-        'Family relationships and parenting challenges',
-        'Life transitions, career direction and decision-making'
+        'Family dynamics and parenting support',
+        'Life transitions and decision-making support'
       ],
       "practitioner_title": "About the Practitioner",
       "practitioner_data": [
@@ -62,9 +63,9 @@ const resources = {
         'Certified Counselling Supervisor (Lembaga Kaunselor Malaysia)',
         'M. Ed (Guidance and Counselling)'
       ],
-      "practitioner_para1":"Rachael provides counselling support for adolescents and adults in a safe, confidential, and non-judgmental space.",
-      "practitioner_para2":"Her work is grounded in empathy, curiosity, and a collaborative approach, supporting individuals in exploring emotional experiences, navigating life challenges, and working toward meaningful and sustainable change.",
-      "practitioner_para3":"With experience in school settings and leadership roles within counselling team, she has supported individuals and communities through emotional wellbeing concerns, life transitions, and interpersonal and developmental challenges.",
+      "practitioner_para1":"Rachael is a registered counsellor and certified counselling supervisor providing counselling services for adolescents and adults.",
+      "practitioner_para2":"She has extensive experience working within school settings, where she has supported adolescents, parents, and educators in navigating emotional challenges, relationship difficulties, developmental transitions, and life stressors. She has also been involved in school-based counselling leadership and wellbeing initiatives, supporting both individual and community-level mental health needs.",
+      "practitioner_para3":"She works from a stance of curiosity, empathy and collaboration, offering a safe and non-judgmental space for individuals to explore their inner experiences and move towards meaningful change at their own pace.",
       "practitioner_more":"Read More",
       "session_title":"Session Mode",
       "session_online":"Online Session (Available now)",
@@ -110,34 +111,38 @@ const resources = {
       "services":{ 
         "list": [
           {
-            title: "个人心理咨询(成人)",
-            desc: ["提供一个安全、保密的空间，让成人能够探索情绪困扰、应对生活挑战，并以自己的节奏迈向有意义的改变。"]
-          },
-          {
+            id:1,
             title: "青少年心理咨询",
-            desc: ["为青少年提供情绪支持，协助应对学业压力、人际关系、家庭沟通及自我认同发展等议题。"]
+            desc: ["为青少年提供一个安全、保密且不带评判的空间，协助他们探索情绪经验，并应对成长过程中所面对的挑战，例如学业压力、人际关系、家庭沟通、自我认同及人生方向探索等。"]
           },
           {
+            id:2,
             title: "家长咨询",
-            desc: ["协助家长更好理解孩子或青少年的情绪需求、行为表现及沟通模式。"]
+            desc: ["协助家长更好地理解孩子或青少年的情绪需求、行为表现及沟通模式，并共同探讨更适合家庭现阶段需要的支持方式。"]
+          },
+          {
+            id:3,
+            title: "个人心理咨询(成人)",
+            desc: ["提供一个安全、保密且不带评判的空间，让成人能够探索情绪困扰、面对生活挑战，并以自己的步调迈向更有意义及符合自身价值的生活。"]
           },
           // {
           //   title: "职业咨询",
           //   desc: ["协助个人探索职业方向、升学路径、决策过程及学习或职场转换。"]
           // },
           {
+            id:4,
             title: "心理健康讲座与工作坊 (可按需求安排)",
-            desc: ["为学校、机构或团体提供心理教育及身心健康主题的工作坊与讲座。",""]
+            desc: ["可根据学校、机构、企业或团体的需要设计及安排相关主题讲座、工作坊或培训活动。",""]
           }
         ]
       },
       "services_support_title": "支持领域",
       "services_support": [
-        '情绪健康与压力管理',
+        '情绪与心理健康支持',
         '个人成长与自我理解',
         '人际关系与互动议题',
-        '家庭关系与亲职挑战',
-        '人生转变、职业方向与决策支持'
+        '家庭互动与亲职支持',
+        '人生转变与决策支持'
       ],
       "practitioner_title": "关于心理辅导与咨询师",
       "practitioner_data": [
@@ -145,9 +150,9 @@ const resources = {
         '马来西亚辅导局认证督导',
         '辅导与咨询硕士'
       ],
-      "practitioner_para1":"Rachael为青少年与成人提供心理咨询支持，在安全、保密且不带评判的空间中进行。",
-      "practitioner_para2":"她的工作以同理心、好奇心与合作关系为基础，协助个体探索情绪经验、应对生活挑战，并迈向有意义且可持续的改变。",
-      "practitioner_para3":"她曾在校园环境及辅导团队担任领导角色，协助个人与群体处理情绪健康、人生转变及人际与发展性议题。",
+      "practitioner_para1":"Rachael 是一名注册心理辅导师及认证督导，提供青少年与成人心理咨询服务。",
+      "practitioner_para2":"她拥有丰富的校园工作经验，长期在学校环境中支持青少年、家长及教育工作者，协助他们面对情绪困扰、人际关系议题、发展阶段的转变以及生活中的各种压力。同时，她也参与学校层面的辅导工作与心理健康推广项目，关注个体与整体校园心理健康的发展。",
+      "practitioner_para3":"她以好奇、同理与合作的态度开展工作，在安全且不带评判的空间中，陪伴个体探索自身的内在经验，并以自己的节奏走向更有意义与真实的改变。",
       "practitioner_more":"阅读更多",
       "session_title":"辅导与咨询形式",
       "session_online":"线上",
