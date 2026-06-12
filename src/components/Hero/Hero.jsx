@@ -6,7 +6,12 @@ import hero3 from '../../assets/hero-bg-3.png';
 import { useTranslation } from 'react-i18next';
 
 const Hero = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const isZh = i18n.language?.startsWith('zh');
+
+  const fontSize = isZh 
+  ? 'text-3xl sm:text-[32px] md:text-[50px] lg:text-[62px] xl:text-[65px]' 
+  : 'text-4xl sm:text-[40px] md:text-[66px] lg:text-[80px] xl:text-[88px]';
 
   return (
     <div id="hero" className='hero relative bg-[#fff4e9] pt-36 pb-24 px-[5%] sm:px-[10%] lg:px-[15%]  mx-auto flex flex-col gap-14 md:gap-24'>
@@ -26,8 +31,9 @@ const Hero = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }} 
-            className='text-4xl sm:text-[40px] md:text-[66px] lg:text-[80px] xl:text-[88px] mb-3 md:mb-0 font-semibold  text-[#5a6a5d] leading-none'>
-              R+ Counselling
+            className='mb-3 md:mb-0 font-semibold text-[#5a6a5d] leading-none text-4xl sm:text-[40px] md:text-[66px] lg:text-[80px] xl:text-[88px]'
+          >
+            R+ <span className={`${fontSize}`}>{t('hero_title')}</span>
           </motion.h1>
           
           <img src={hero3} alt="hero-bg" className='hidden md:block md:w-[50%] mx-auto'/>

@@ -11,6 +11,7 @@ const resources = {
       "nav_services":"Services",
       "nav_practitioner":"About the Practitioner",
       "nav_session":"Session Mode",
+      "hero_title":"Counselling",
       "hero_subtitle": "Professional Counselling for Adolescents & Adults",
       "hero_online": "Online Session (Available Now)",
       "hero_offline": "Seremban 2 (Coming Soon)",
@@ -99,6 +100,7 @@ const resources = {
       "nav_services":"服务项目",
       "nav_practitioner":"关于心理辅导与咨询师",
       "nav_session":"辅导与咨询形式",
+      "hero_title":"心理辅导与成长",
       "hero_subtitle": "青少年与成人的专业心理辅导与咨询",
       "hero_online": "线上 (现已开放)",
       "hero_offline": "芙蓉新城 S2 (筹备中)",
@@ -151,7 +153,7 @@ const resources = {
         '辅导与咨询硕士'
       ],
       "practitioner_para1":"Rachael 是一名注册心理辅导师及认证督导，提供青少年与成人心理咨询服务。",
-      "practitioner_para2":"她拥有丰富的校园工作经验，长期在学校环境中支持青少年、家长及教育工作者，协助他们面对情绪困扰、人际关系议题、发展阶段的转变以及生活中的各种压力。同时，她也参与学校层面的辅导工作与心理健康推广项目，关注个体与整体校园心理健康的发展。",
+      "practitioner_para2":"她拥有丰富的校园工作经验，长期支持青少年、家长及教育工作者面对情绪、人际关系、成长发展及生活压力等议题。她亦曾担任辅导团队领导工作，并参与学校心理健康与福祉工作的规划与推动。",
       "practitioner_para3":"她以好奇、同理与合作的态度开展工作，在安全且不带评判的空间中，陪伴个体探索自身的内在经验，并以自己的节奏走向更有意义与真实的改变。",
       "practitioner_more":"阅读更多",
       "session_title":"辅导与咨询形式",
@@ -162,7 +164,7 @@ const resources = {
       "session_operation_hours2": "星期六: 上午9:30 - 下午12:30",
       "session_hours_info":"若需以上时段以外的预约时间，欢迎联系查询。",
       "book_title":"预约辅导与咨询",
-      "book_subtitle":"欢迎通过 WhatsApp 联系以了解详情或安排辅导与咨询，在你准备好的时候进行。",
+      "book_subtitle":"若您希望进一步了解服务内容，或准备开始辅导旅程，欢迎通过 WhatsApp联系。",
       "book_note":"温馨提示：",
       "book_note_lists": [
         "讯息通常将于工作日的24 - 48小时内依序回复。",

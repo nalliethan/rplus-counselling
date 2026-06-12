@@ -51,7 +51,7 @@ const Services = () => {
                   </span>
                 </div>
 
-                <div className={`${isOpen ? 'max-h-32 opacity-100' : 'max-h-0 opacity-0'} overflow-hidden transition-all duration-500 ease-in-out flex flex-col gap-2`}>
+                <div className={`${isOpen ? 'max-h-56 opacity-100' : 'max-h-0 opacity-0'} overflow-hidden transition-all duration-500 ease-in-out flex flex-col gap-2`}>
                   {service.desc.map((paragraph, index) => (
                     <p key={index} className='text-[#4a5568]'> 
                       {paragraph}

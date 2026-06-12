@@ -13,18 +13,18 @@ const Practitioner = () => {
   }
 
   return (
-    <div id="practitioner" className='flex flex-col lg:flex-row items-center bg-[#fffcfc] py-[20%] px-[9%] sm:py-24 sm:px-[18%]' >
+    <div id="practitioner" className='flex flex-col lg:flex-row items-center bg-[#fffcfc] py-[20%] px-[9%] sm:py-24 sm:px-[12%]' >
         <h1 className='block lg:hidden text-3xl sm:text-4xl text-[#55675b] font-bold leading-none mb-4 w-full'>
             {t('practitioner_title')}
         </h1>
 
         <img 
-            className='w-fit h-fit mb-4 lg:absolute lg:object-contain lg:right-20 xl:right-40' 
+            className='w-fit h-fit mb-4 lg:absolute lg:object-contain lg:right-0 xl:right-20' 
             src={practitioner} 
             alt="practitioner" 
         />
 
-        <div className='flex flex-col gap-8 lg:basis-[60%] xl:basis-[70%] text-[#55675b] text-xl lg:relative lg:z-10 '>
+        <div className='flex flex-col gap-8 lg:basis-[60%] xl:basis-[65%] text-[#55675b] text-xl lg:relative lg:z-10 '>
             <h1 className='hidden lg:block text-4xl lg:text-5xl font-bold mb-4'>
                 {t('practitioner_title')}
             </h1>
