@@ -105,7 +105,7 @@ const resources = {
       "hero_online": "线上 (现已开放)",
       "hero_offline": "芙蓉新城 S2 (筹备中)",
       "hero_book_now": "欢迎联系",
-      "about_title": "R+心理咨询与咨询",
+      "about_title": "R+心理辅导与咨询",
       "about_paragraph": "<bold>{{title}}</bold>提供一个<highlight1>安全</highlight1>、<highlight1>保密</highlight1>且<highlight1>专业</highlight1>的环境, 让青少年与成人能够探索情绪困扰、应对生活挑战，并在<highlight2>循证</highlight2>心理咨询的支持下发展更健康的应对方式。",
       "about_paragraph_2": "“+”代表成长、改变与更多可能性的延展空间。",
       "services_title": "服务项目",
