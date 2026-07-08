@@ -56,7 +56,7 @@ const Footer = () => {
                © 2026 R+ Counselling. All Rights Reserved. 
             </div>
             <div>
-                RT POSSIBILITIES ENTERPRISE | Registration No: 20250316676018 (RA03354240-T)
+                RT POSSIBILITIES ENTERPRISE | Registration No: 202503146018
             </div>
         </div>
     </footer>
