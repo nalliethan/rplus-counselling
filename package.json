@@ -1,9 +1,9 @@
 {
-  "name": "rpluscounselling",
+  "name": "rtpossibilities",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://rpluscounselling.com",
+  "homepage": "https://rtpossibilities.com",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

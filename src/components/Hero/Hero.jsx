@@ -10,7 +10,7 @@ const Hero = () => {
   const isZh = i18n.language?.startsWith('zh');
 
   const fontSize = isZh 
-  ? 'text-3xl sm:text-[32px] md:text-[50px] lg:text-[62px] xl:text-[65px]' 
+  ? 'text-3xl sm:text-[30px] md:text-[50px] lg:text-[62px] xl:text-[65px]' 
   : 'text-4xl sm:text-[40px] md:text-[66px] lg:text-[80px] xl:text-[88px]';
 
   return (
@@ -33,7 +33,7 @@ const Hero = () => {
             transition={{ duration: 0.8, ease: "easeOut" }} 
             className='mb-3 md:mb-0 font-semibold text-[#5a6a5d] leading-none text-4xl sm:text-[40px] md:text-[66px] lg:text-[80px] xl:text-[88px]'
           >
-            R+ <span className={`${fontSize}`}>{t('hero_title')}</span>
+            RT Possibilities <br></br><span className={`${fontSize}`}>{t('hero_title')}</span>
           </motion.h1>
           
           <img src={hero3} alt="hero-bg" className='hidden md:block md:w-[50%] mx-auto'/>

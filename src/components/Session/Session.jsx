@@ -33,6 +33,7 @@ const Session = () => {
                     {t('session_hours')}
                     <div className='text-sm sm:text-lg leading-none'>
                       <div>{t('session_operation_hours1')}</div>
+                      <br></br>
                       <div>{t('session_operation_hours2')}</div>
                       <div className='mt-4'>{t('session_hours_info')}</div>
                     </div>

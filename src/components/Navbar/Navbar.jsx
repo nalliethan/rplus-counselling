@@ -73,7 +73,7 @@ const toggleLanguage = () => {
    <nav className={` flex items-center justify-between bg-[#fffcfc] text-[#c4a183] px-[2%] xl:px-[5%] py-3 sticky z-20 top-0 duration-300 ${isScrolled ? 'shadow-2xl' : 'shadow-none'}`}>
         <a href='#hero' className="relative text-xl flex items-center gap-4">
             <img className='w-10' src={logo} alt="logo" />
-            R+ Counselling</a>
+            RT Possibilities</a>
 
         <ul className='navbar-links'>
             <li className={activeSection === 'hero' ? 'active' : ''}>
