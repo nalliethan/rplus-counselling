@@ -188,6 +188,7 @@ i18n
   .use(initReactI18next) // 绑定 react-i18next
   .init({
     resources,
+    lng: 'en',
     fallbackLng: "en", // 如果检测不到语言，默认使用英文
     interpolation: {
       escapeValue: false // React 已经自带防 XSS 攻击

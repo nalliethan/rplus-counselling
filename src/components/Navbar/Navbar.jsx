@@ -11,8 +11,11 @@ const [menuOpen, setMenuOpen] = useState(false);
 const menuRef = useRef(null);
 
 const { t, i18n } = useTranslation();
-const toggleLanguage = () => {
-    const newLang = i18n.language === 'en' ? 'zh' : 'en';
+const currentLang = i18n.language || 'en';
+const isEnglish = currentLang.startsWith('en');
+
+  const toggleLanguage = () => {
+    const newLang = isEnglish ? 'zh' : 'en';
     i18n.changeLanguage(newLang);
   };
 
@@ -133,7 +136,7 @@ const toggleLanguage = () => {
               onClick={toggleLanguage}
               className="px-4 py-2 bg-red-400 text-white rounded-full cursor-pointer hover:bg-red-300 transition"
             >
-              {i18n.language === 'en' ? '中' : 'EN'}
+              {isEnglish ? '中' : 'EN'}
             </button>
         </ul>
 
@@ -145,7 +148,7 @@ const toggleLanguage = () => {
                     onClick={toggleLanguage}
                     className="px-4 py-2 bg-red-400 text-white rounded-full cursor-pointer hover:bg-red-300 transition"
             >
-              {i18n.language === 'en' ? '中' : 'EN'}
+              {isEnglish ? '中' : 'EN'}
             </button>
             <div className='min-w-12 h-10 flex items-center justify-center' onClick={toggleMenu}>
                 <i className={`fa-solid ${menuOpen ? 'fa-xmark' : 'fa-bars'}`}></i>
