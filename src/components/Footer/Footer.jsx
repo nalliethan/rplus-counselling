@@ -22,6 +22,10 @@ const Footer = () => {
                                 <i className="fa-brands fa-instagram"></i>
                             </a>
 
+                            <a href="https://www.facebook.com/rtpossibilities/" target='_blank'>
+                                <i className="fa-brands fa-facebook"></i>
+                            </a>
+
                             {/* <a href="https://www.xiaohongshu.com/user/profile/USER_ID" target='_blank' className="border-2 p-1 rounded-sm">
                             <img className="w-4.5" src={rednote} alt="rednote" />
                         </a>  */}
