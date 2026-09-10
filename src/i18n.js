@@ -45,7 +45,7 @@ const resources = {
           // },
           {
             id: 4,
-            title: "Wellbeing Talks and Workshop (Upon Request)",
+            title: "Mental Health Education & Training",
             desc: ["Talks, workshops and training programmes can be tailored to the needs of schools, organisations, workplaces and community groups."]
           }
         ]
@@ -133,7 +133,7 @@ const resources = {
           // },
           {
             id: 4,
-            title: "心理健康讲座与工作坊 (可按需求安排)",
+            title: "心理健康教育与培训",
             desc: ["可根据学校、机构、企业或团体的需要设计及安排相关主题讲座、工作坊或培训活动。", ""]
           }
         ]
