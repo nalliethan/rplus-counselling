@@ -91,6 +91,57 @@ const resources = {
       "book_pre_fill": "Hi. I would like to book a counselling session.",
       "footer_explore": "Explore",
       "footer_session": "Sessions",
+      "faqData": [
+        {
+          id: 1,
+          question: "What is counselling?",
+          answers: ["Counselling is a professional and confidential space where you can explore your thoughts, emotions, and experiences with the support of a trained and licensed counsellor. It aims to help you gain clarity, develop coping strategies, and better understand yourself."]
+        },
+        {
+          id: 2,
+          question: "Who is counselling for?",
+          answers: [
+            "Counselling is for individuals who may be experiencing emotional difficulties, life challenges, or simply a sense that something feels off or unclear.",
+            "You do not need to have a clearly defined problem. Some people come with specific concerns, while others are looking for a space to reflect, understand themselves better, and gain clarity over time."
+          ]
+        },
+        {
+          id: 3,
+          question: "What happens in the first session?",
+          answers: ["The first session is an opportunity to get to know each other, understand your concerns, and explore what you might want from counselling. There is no pressure to share everything at once."]
+        },
+        {
+          id: 4,
+          question: "What can I talk about in counselling?",
+          answers: [
+            "You may talk about anything that feels important to you. This may include emotional difficulties, stress, relationships, life transitions, or simply a desire to understand yourself better."
+          ],
+          highlight: "All sessions are conducted in a safe and confidential space, in accordance with professional ethical guidelines, except in situations where there is a risk of harm to self or others."
+        },
+        {
+          id: 5,
+          question: "How are sessions conducted?",
+          answers: [
+            "Sessions are available both online and in person at RT Possibilities in Seremban 2. All sessions are by appointment only.",
+            "You are welcome to reach out via WhatsApp to enquire or arrange a session when you feel ready."
+          ]
+        },
+        {
+          id: 6,
+          question: "How do I book a session?",
+          answers: ["You may reach out via WhatsApp to enquire or book a session. "]
+        },
+        {
+          id: 7,
+          question: "Can I claim counselling under insurance or company benefits?",
+          answers: ["Some organisations provide coverage for counselling or mental health support under employee benefits or insurance plans. You may check with your HR department or insurance provider for eligibility. Receipts can be provided upon request."]
+        },
+        {
+          id: 8,
+          question: "Is counselling eligible for income tax relief in Malaysia?",
+          answers: ["According to the latest LHDN guidelines, certain medical and mental health-related expenses may be eligible for tax relief, which may include services provided by mental health professionals such as psychiatrists, clinical psychologists, and licensed counsellors, subject to LHDN assessment.", "Clients are advised to consult their tax agent for confirmation."]
+        }
+      ]
     }
   },
   zh: {
@@ -179,6 +230,57 @@ const resources = {
       "book_pre_fill": "你好，我想预约辅导咨询。",
       "footer_explore": "探索",
       "footer_session": "咨询",
+      "faqData": [
+        {
+          id: 1,
+          question: "What is counselling??",
+          answers: ["Counselling is a professional and confidential space where you can explore your thoughts, emotions, and experiences with the support of a trained and licensed counsellor. It aims to help you gain clarity, develop coping strategies, and better understand yourself."]
+        },
+        {
+          id: 2,
+          question: "Who is counselling for?",
+          answers: [
+            "Counselling is for individuals who may be experiencing emotional difficulties, life challenges, or simply a sense that something feels off or unclear.",
+            "You do not need to have a clearly defined problem. Some people come with specific concerns, while others are looking for a space to reflect, understand themselves better, and gain clarity over time."
+          ]
+        },
+        {
+          id: 3,
+          question: "What happens in the first session?",
+          answers: ["The first session is an opportunity to get to know each other, understand your concerns, and explore what you might want from counselling. There is no pressure to share everything at once."]
+        },
+        {
+          id: 4,
+          question: "What can I talk about in counselling?",
+          answers: [
+            "You may talk about anything that feels important to you. This may include emotional difficulties, stress, relationships, life transitions, or simply a desire to understand yourself better."
+          ],
+          highlight: "All sessions are conducted in a safe and confidential space, in accordance with professional ethical guidelines, except in situations where there is a risk of harm to self or others."
+        },
+        {
+          id: 5,
+          question: "How are sessions conducted?",
+          answers: [
+            "Sessions are available both online and in person at RT Possibilities in Seremban 2. All sessions are by appointment only.",
+            "You are welcome to reach out via WhatsApp to enquire or arrange a session when you feel ready."
+          ]
+        },
+        {
+          id: 6,
+          question: "How do I book a session?",
+          answers: ["You may reach out via WhatsApp to enquire or book a session. "]
+        },
+        {
+          id: 7,
+          question: "Can I claim counselling under insurance or company benefits?",
+          answers: ["Some organisations provide coverage for counselling or mental health support under employee benefits or insurance plans. You may check with your HR department or insurance provider for eligibility. Receipts can be provided upon request."]
+        },
+        {
+          id: 8,
+          question: "Is counselling eligible for income tax relief in Malaysia?",
+          answers: ["According to the latest LHDN guidelines, certain medical and mental health-related expenses may be eligible for tax relief, which may include services provided by mental health professionals such as psychiatrists, clinical psychologists, and licensed counsellors, subject to LHDN assessment.", "Clients are advised to consult their tax agent for confirmation."]
+        }
+      ]
     }
   }
 };
