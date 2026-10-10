@@ -21,7 +21,7 @@ const FAQ = () => {
     };
 
     return (
-        <div className="min-w-[55vw] w-full px-[9%] py-10 md:py-20">
+        <div id='faq' className="min-w-[55vw] w-full px-[9%] py-10 md:py-20">
             <h1 className='text-4xl sm:text-5xl font-semibold text-[#c3a082] mb-10'>Frequently Asked Questions</h1>
 
             <div className='flex flex-col gap-8 text-lg'>
