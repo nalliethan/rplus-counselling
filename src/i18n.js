@@ -124,13 +124,15 @@ const resources = {
           question: "How are sessions conducted?",
           answers: [
             "Sessions are available both online and in person at RT Possibilities in Seremban 2. All sessions are by appointment only.",
-            "You are welcome to reach out via WhatsApp to enquire or arrange a session when you feel ready."
+            "You are welcome to reach out via <whatsapp>WhatsApp</whatsapp> to enquire or arrange a session when you feel ready."
           ]
         },
         {
           id: 6,
           question: "How do I book a session?",
-          answers: ["You may reach out via WhatsApp to enquire or book a session. "]
+          "answers": [
+            "You may reach out via <whatsapp>WhatsApp</whatsapp> to enquire or book a session."
+          ]
         },
         {
           id: 7,
@@ -264,13 +266,13 @@ const resources = {
           question: "How are sessions conducted?",
           answers: [
             "Sessions are available both online and in person at RT Possibilities in Seremban 2. All sessions are by appointment only.",
-            "You are welcome to reach out via WhatsApp to enquire or arrange a session when you feel ready."
+            "You are welcome to reach out via <whatsapp>WhatsApp</whatsapp> to enquire or arrange a session when you feel ready."
           ]
         },
         {
           id: 6,
           question: "How do I book a session?",
-          answers: ["You may reach out via WhatsApp to enquire or book a session. "]
+          answers: ["You may reach out via <whatsapp>WhatsApp</whatsapp> to enquire or book a session. "]
         },
         {
           id: 7,

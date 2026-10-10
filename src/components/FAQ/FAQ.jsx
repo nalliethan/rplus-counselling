@@ -1,11 +1,13 @@
 import './FAQ.css'
 import React, { useState } from 'react';
-import { useTranslation } from 'react-i18next';
+import { useTranslation, Trans } from 'react-i18next';
 
 const FAQ = () => {
     const { t } = useTranslation();
     const [openIds, setOpenIds] = useState([]);
     const faqData = t('faqData', { returnObjects: true });
+    const message = encodeURIComponent(t('book_pre_fill'));
+    const whatsappLink = `https://wa.me/601129980528?text=${message}`;
 
     const toggleFAQ = (id) => {
         setOpenIds((prevOpenIds) => {
@@ -44,7 +46,19 @@ const FAQ = () => {
                                 <div className="faq-content-inner pt-4 flex flex-col gap-4">
                                     {item.answers.map((ans, index) => (
                                         <div key={index} className="answer text-gray-600 leading-relaxed">
-                                            {ans}
+                                            <Trans
+                                                defaults={ans}
+                                                components={{
+                                                    whatsapp: (
+                                                        <a
+                                                            href={whatsappLink}
+                                                            target="_blank"
+                                                            rel="noopener noreferrer"
+                                                            className="text-[#c3a082] underline font-medium hover:text-[#a88265] transition-colors"
+                                                        />
+                                                    )
+                                                }}
+                                            />
                                         </div>
                                     ))}
 
